@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+    height: 70vh;
+}
+
+#whatapp{
+    background-image: url(../image/fl.jpeg);
+    height: 100vh;
+}
+.icon i{
+    color:black;
+    font-size: 2rem;
+   margin-left: 10px;
+    
+}
+.message{
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 25%;
+    width: 50%;
+    margin: auto;
+   
+    
+}
+.page {
+    width: 100%;
+    padding: 10px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.color{
+    border: 3px solid black;
+    background-color: aqua;
+    color: blue;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 20%;
+    overflow: hidden;
+   
+    
+    
+}
+
+
+.send{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+   
+  
+
+}
+
